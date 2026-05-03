@@ -1,1 +1,2 @@
-HAI JADI INI ADALAH README, IDK WHAT IT IS ACTUALLY LOL
+hai ini adalah projek kelas SI/B
+(vibe coding)
