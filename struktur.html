@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Struktur Kelas · 2SI/B</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="bg-blobs">
+  <div class="blob blob-1"></div>
+  <div class="blob blob-2"></div>
+  <div class="blob blob-3"></div>
+</div>
+
+<div class="wrapper">
+
+  <!-- NAV -->
+  <nav>
+    <a href="index.html" class="nav-brand">Resource Hub 2SI/B</a>
+    <div class="nav-links">
+      <a href="index.html"       class="nav-link">📚 Materi</a>
+      <a href="jadwal.html"      class="nav-link">🗓️ Jadwal</a>
+      <a href="struktur.html"  class="nav-link active">👥 Struktur Kelas</a>
+      <a href="QA.html" class="nav-link">⚡ Quick Access</a>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-badge"><span></span>Struktur Kelas · 2SI/B</div>
+    <h1>Struktur Kelas</h1>
+    <p class="header-sub">Pengurus & anggota kelas 2SI/B — Tahun Akademik 2024/2025
+    </p>
+  </header>
+
+  <!-- STATS -->
+  <div class="stats-row">
+    <div class="stat"><div class="stat-num">32</div><div class="stat-lbl">Mahasiswa</div></div>
+    <div class="stat"><div class="stat-num">4</div><div class="stat-lbl">Pengurus Inti</div></div>
+    <div class="stat"><div class="stat-num">28</div><div class="stat-lbl">Anggota</div></div>
+  </div>
+
+  <!-- ══ ORG CHART ══ -->
+  <div class="section-label">
+    <h2>Bagan Organisasi</h2>
+    <div class="section-line"></div>
+  </div>
+
+  <div class="org-chart">
+
+    <!-- Level 1: Komting -->
+    <div class="org-row">
+      <div class="org-node node-komting">
+        <div class="org-node-inner" style="animation-delay:0s">
+          <div class="org-avatar">😼</div>
+          <div class="org-jabatan">Komting</div>
+          <div class="org-nama" id="nama-komting">Suclyn Agus Tirta</div>
+          <div class="org-nim">NPM: 25441060</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="org-connector"></div>
+
+    <!-- Level 2: Wakil Komting -->
+    <div class="org-row">
+      <div class="org-node node-wakil">
+        <div class="org-node-inner" style="animation-delay:0.08s">
+          <div class="org-avatar">🎖️</div>
+          <div class="org-jabatan">Wakil Komting</div>
+          <div class="org-nama" id="nama-wakil">Albern Bryan</div>
+          <div class="org-nim">NPM: 25441065</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="org-connector"></div>
+
+    <!-- Horizontal bridge sebelum Sekretaris & Bendahara -->
+    <div style="display:flex; align-items:flex-start; gap:0; justify-content:center; width:100%; max-width:460px; margin:0 auto; position:relative;">
+      <!-- kiri: garis turun ke sekretaris -->
+      <div style="display:flex; flex-direction:column; align-items:center; flex:1;">
+        <div style="height:2px; background: rgba(167,139,250,0.3); width:100%;"></div>
+        <div style="width:2px; height:22px; background: rgba(167,139,250,0.3);"></div>
+      </div>
+      <!-- kanan: garis turun ke bendahara -->
+      <div style="display:flex; flex-direction:column; align-items:center; flex:1;">
+        <div style="height:2px; background: rgba(167,139,250,0.3); width:100%;"></div>
+        <div style="width:2px; height:22px; background: rgba(167,139,250,0.3);"></div>
+      </div>
+    </div>
+
+    <!-- Level 3: Sekretaris & Bendahara -->
+    <div class="org-row">
+      <div class="org-node node-sekretaris">
+        <div class="org-node-inner" style="animation-delay:0.16s">
+          <div class="org-avatar">📋</div>
+          <div class="org-jabatan">Sekretaris</div>
+          <div class="org-nama" id="nama-sekretaris">Naila Zalwa Al Fanni</div>
+          <div class="org-nim">NPM: 25441039</div>
+        </div>
+      </div>
+      <div class="org-node node-bendahara">
+        <div class="org-node-inner" style="animation-delay:0.22s">
+          <div class="org-avatar">💰</div>
+          <div class="org-jabatan">Bendahara</div>
+          <div class="org-nama" id="nama-bendahara">Nazla Revandhita</div>
+          <div class="org-nim">NPM: 25441040</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="org-connector" style="background: linear-gradient(to bottom, rgba(255,255,255,0.1), transparent);"></div>
+
+    <!-- Anggota label di bagan -->
+    <div style="background:var(--glass-bg); border:1px solid var(--glass-border); border-radius:10px; padding:7px 24px; font-size:11px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; color:var(--text-secondary); backdrop-filter:blur(12px); animation: cardIn 0.4s 0.28s ease both; opacity:0;">
+      28 Anggota Kelas
+    </div>
+
+  </div>
+  <!-- FOOTER -->
+  <footer>
+    <p>Resource Hub &copy; 2067 &nbsp;·&nbsp; Kelas <span>2SI/B</span> &nbsp;·&nbsp; Struktur Organisasi</p>
+  </footer>
+
+</div><!-- /wrapper -->
+</body>
+</html>
