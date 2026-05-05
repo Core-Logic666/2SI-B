@@ -45,7 +45,7 @@
     { url: 'https://kaputama.ac.id/halaman/download',       name: 'File Kampus',     sub: 'File pengumuman',        icon: '📧' },
     { url: 'https://calendar.google.com',   name: 'Google Calendar',  sub: 'Jadwal & reminder',  icon: '📅' },
     { url: 'https://docs.google.com',       name: 'Google Docs',      sub: 'Dokumen bersama',    icon: '📝' },
-    { url: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQ8Aw8fVaNSKOVoAXxdoiV1AIzxwN217YceVHzf2IwKIQCcOm78-KVWNTVEqcMRZlgqAcUNg3I_gJ20/pubhtml',     name: 'Google Sheets',    sub: 'Spreadsheet kelas',  icon: '📊' },
+    { url: 'https://docs.google.com/spreadsheets/d/1tPHt6NEQiV88B-4dkyJ-b7mzabHg1RLs/edit?gid=1868440160#gid=1868440160',     name: 'Google Sheets',    sub: 'Spreadsheet kelas',  icon: '📊' },
     { url: 'https://www.instagram.com/suck__lyn/',  name: 'IG Komting', sub: 'Follow IG Suclyn',    icon: '📸' }, // 👈 Ganti nomor
     { url: 'https://www.w3schools.com/',      name: 'W3Schools',         sub: 'Belajar coding',    icon: '💻' },
   ];
