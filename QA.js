@@ -48,6 +48,7 @@
     { url: 'https://docs.google.com/spreadsheets/d/1tPHt6NEQiV88B-4dkyJ-b7mzabHg1RLs/edit?gid=1868440160#gid=1868440160',     name: 'Google Sheets',    sub: 'Spreadsheet kelas',  icon: '📊' },
     { url: 'https://www.instagram.com/suck__lyn/',  name: 'IG Komting', sub: 'Follow IG Suclyn',    icon: '📸' }, // 👈 Ganti nomor
     { url: 'https://www.w3schools.com/',      name: 'W3Schools',         sub: 'Belajar coding',    icon: '💻' },
+    { url: '/miawlist/index.html',      name: 'Miawlist',         sub: 'To-Do-List',    icon: '📋' },
   ];
 
   /* ── Render featured cards ── */
